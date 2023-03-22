@@ -1,3 +1,41 @@
+#content{
+  font-family: anton, Labrada, sans-serif;
+  color: #424440;
+}
+header{
+  background-color: #630118;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px auto;
+  font-size: 18px;
+  margin: 0 -20px;
+}
+#cart{
+  height: 50px;
+}
+.logo{
+  width: 300px;
+}
+nav{
+  background-color: #630118;
+  display: flex;
+  justify-content: space-around;
+  
+}
+nav a{  
+  text-align: left;
+  font-family:anton, Labrada, sans-serif;
+  color: black; 
+  font-size: 1.25em;
+  text-decoration: none; 
+  padding: 35px;
+  color:#8c8683;
+}
+nav a:hover{
+  background-color: #8c8683;
+  color:#e50b41;
+}
+
 .switch {
     position: relative;
     display: inline-block;
