@@ -1,26 +1,28 @@
-#content{
-  font-family: anton, Labrada, sans-serif;
-  color: #424440;
-}
 header{
   background-color: #630118;
   text-align: center;
   display: grid;
   grid-template-columns: 300px auto;
   font-size: 18px;
-  margin: 0 -20px;
+  margin: 0 auto 10px auto  ;
+  height: 150px;
 }
 #cart{
-  height: 50px;
+  width: 50px;
 }
 .logo{
   width: 300px;
+  grid-row: 1/2;
 }
 nav{
   background-color: #630118;
   display: flex;
   justify-content: space-around;
-  
+  margin-bottom: 100px;
+  height: 100px;
+  grid-row: 1/2;
+  grid-column: 2/3;
+
 }
 nav a{  
   text-align: left;
@@ -34,6 +36,39 @@ nav a{
 nav a:hover{
   background-color: #8c8683;
   color:#e50b41;
+}
+body{
+  background-color: #424440;
+}
+#photos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto 0 auto  ;
+  background-color: #630118;
+  color:#8c8683;
+}
+.fitness_plan{
+  grid-column: 2/3;
+  width: 500px;
+  margin-right: 50px;
+}
+#title{
+  grid-column: 3/4;
+  font-family: anton, Labrada, sans-serif;
+  width: 150px;
+}
+.nutrition_plan{
+  grid-column: 4/5;
+  width: 500px;
+}
+
+.content{
+background-color:#630118;
+margin: 20px 20% 20px 20%; 
+}
+
+form{
+  color: #8c8683;
 }
 
 .switch {
@@ -93,3 +128,31 @@ nav a:hover{
   .slider.round:before {
     border-radius: 50%;
   }
+  #site-plan{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+#site-plan:hover{
+    background-color: #8c8683;
+    color:#e50b41;   
+}
+#for_statement{
+    grid-column: 2/3;
+}
+footer{
+    background-color: #630118;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr ;
+    font-size: 25px;
+    color: #8c8683;
+    padding: 20px;
+}
+.social{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}

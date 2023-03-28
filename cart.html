@@ -15,64 +15,69 @@
         <nav>
             <a id="home" href="index.html">Home</a>
             <a id="About" href="our_story.html">Our Story</a>
-            <a id="Checkout" href="site-plan.html">
+            <a id="Checkout" href="cart.html">
                 <div id="cart">
                 <img src="images/cart.png" alt="cart" href="cart.html">
                 </div>
             </a>
         </nav>
     </header>
-    <a id="fitness_plan">
-        <img src="images/fitness_plan_workout.jpg" alt="fitness_plan">
-    </a>
-    <a id="nutrition_plan">
-        <img src="images/Nutrition_Plan.jpeg" alt="nutrition_plan">
-    </a>
-    <form id="form">
-        <ul>
-            <li>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name" />
-            </li>
-            <li>
-                <label for="Weight">Weight:</label>
-                <input type="text" id="Weight" name="user_weight" />
-            </li>
-            <li>
-                <label for="Geneology">Geneology:</label>
-                <input type="text" id="Geneology" name="user_Geneology" />
-            </li>
-            <li>
-                <label for="nutrition">Nutrition?</label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                  </label>
-            </li>
-            <li> 
-                <label for="fitness"> Fitness?</label>
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                  </label>
-            </li>
-            <li>
-              <label for="mail">Email:</label>
-              <input type="email" id="mail" name="user_email" />
-            </li>
-            <li>
-              <label for="story">Story:</label>
-              <textarea id="story" name="user_message"></textarea>
-            </li>
-            <li>
-                <label for="image">Image:</label>
-                <input id="image" name="user_image" />
-            </li>
-            <li>
-                <button>submit</button>
-            </li>
-          </ul>
-    </form>
+    <div id="photos">
+        <a class="fitness_plan">
+            <img class="fitness_plan" src="images/fitness_plan_workout.jpg" alt="fitness_plan">
+        </a>
+        <h1 id="title">Cart</h1>
+        <a class="nutrition_plan">
+            <img class="nutrition_plan" src="images/Nutrition_Plan.jpeg" alt="nutrition_plan">
+        </a>
+    </div>
+    <div class="content">
+        <form id="form">
+            <ul>
+                <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="Weight">Weight:</label>
+                    <input type="text" id="Weight" name="user_weight" />
+                </li>
+                <li>
+                    <label for="Geneology">Geneology:</label>
+                    <input type="text" id="Geneology" name="user_Geneology" />
+                </li>
+                <li>
+                    <label for="nutrition">Nutrition?</label>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+                <li> 
+                    <label for="fitness"> Fitness?</label>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </li>
+                <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                <label for="story">Story:</label>
+                <textarea id="story" name="user_message"></textarea>
+                </li>
+                <li>
+                    <label for="image">Image:</label>
+                    <input id="image" name="user_image" />
+                </li>
+                <li>
+                    <button>submit</button>
+                </li>
+            </ul>
+        </form>
+    </div>
     <footer>
         <a id="site-plan" href="site-plan.html">Site Plan</a>
         <p id="for_statement">We are here for you to lose weight look good and be strong but most importantly feel
