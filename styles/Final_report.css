@@ -1,0 +1,30 @@
+.subject{
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1/4;
+}
+nav a{
+    display: inline;
+    margin-left: 45%;
+    background-color: black;
+    color: bisque;
+    text-decoration: none;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 25px;
+}
+nav a:hover{background-color: bisque; color: brown;}
+h1{
+    margin-top: 50px;
+}
+body{background-color: bisque; color:brown;}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+p{
+    grid-column: 2/3;
+    text-indent: 4em;
+}
